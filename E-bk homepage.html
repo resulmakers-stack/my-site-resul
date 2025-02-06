@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBK - Binany saýlañ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        .logo {
+            width: 150px;
+        }
+        h1 {
+            color: #003366;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .bina-btn {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            padding: 15px;
+            margin: 10px auto;
+            font-size: 18px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .bina-btn:hover {
+            background-color: #002244;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="ebk logo.jpg" alt="EBK Logo" class="logo"> <!-- Logoyu 'logo.png' olarak eklemelisin -->
+        <h1>Binany saýlañ</h1>
+
+        <button class="bina-btn" onclick="goToBina('bazar.html')">"Altyn Asyr" Gundogar bazar</button>
+        <button class="bina-btn" onclick="goToBina('bazar.html')">Teke bazar</button>
+        <button class="bina-btn" onclick="goToBina('berkarar.html')">Berkarar Dynç Alyş Merkezi</button>
+        <button class="bina-btn" onclick="goToBina('bazar.html')">Aşgabat Dynç Alyş Merkezi</button>
+        <button class="bina-btn" onclick="goToBina('berkarar.html')">Gülzemin Dynç Alyş Merkezi</button>
+        <button class="bina-btn" onclick="goToBina('berkarar.html')">97-nji orta mekdep</button>
+    </div>
+
+    <script>
+        function goToBina(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>

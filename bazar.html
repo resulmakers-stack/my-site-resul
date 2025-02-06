@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altyn Asyr Gundogar Bazar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('altyn-asyr.png') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            margin: 50px auto;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .block-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            font-size: 18px;
+            background-color: #0055a4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .block-btn:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Altyn Asyr Gundogar Bazar</h1>
+
+        <!-- Blok Butonları -->
+        
+        <button class="block-btn" onclick="openBlock('a1-block.html')">A1 Block</button>
+        <button class="block-btn" onclick="openBlock('a2-block.html')">A2 Block</button>
+        <button class="block-btn" onclick="openBlock('a3-block.html')">A3 Block</button>
+        <button class="block-btn" onclick="openBlock('b1-block.html')">B1 Block</button>
+        <button class="block-btn" onclick="openBlock('b2-block.html')">B2 Block</button>
+        <button class="block-btn" onclick="goToBlock('b3-block.html')">B3 Block</button>
+        <button class="block-btn" onclick="openBlock('c1-block.html')">C1 Block</button>
+        <button class="block-btn" onclick="openBlock('c2-block.html')">C2 Block</button>
+        <button class="block-btn" onclick="openBlock('c3-block.html')">C3 Block</button>
+        <button class="block-btn" onclick="openBlock('d1-block.html')">D1 Block</button>
+        <button class="block-btn" onclick="openBlock('d2-block.html')">D2 Block</button>
+        <button class="block-btn" onclick="openBlock('d3-block.html')">D3 Block</button>
+        <button class="block-btn" onclick="openBlock('e1-block.html')">E1 Block</button>
+        <button class="block-btn" onclick="openBlock('e2-block.html')">E2 Block</button>
+        <button class="block-btn" onclick="openBlock('e3-block.html')">E3 Block</button>
+        <button class="block-btn" onclick="openBlock('e4-block.html')">E4 Block</button>
+        <button class="block-btn" onclick="goToBlock('naharhana.html')">Naharhana 1</button>
+        <button class="block-btn" onclick="goToBlock('naharhan2.html')">Naharhana 2</button>
+        <button class="block-btn" onclick="openBlock('naharhan3.html')">Naharhana 3</button>
+        <button class="block-btn" onclick="openBlock('naharhan4.html')">Naharhana 4</button>
+        <button class="block-btn" onclick="openBlock('naharhan5.html')">Naharhana 5</button>
+        <button class="block-btn" onclick="goToBlock('hajathana.html')">Hajathana 1</button>
+        <button class="block-btn" onclick="openBlock('hajathana2.html')">Hajathana 2</button>
+        <button class="block-btn" onclick="openBlock('hajathan3.html')">Hajathana 3</button>
+        <button class="block-btn" onclick="openBlock('hajathan4.html')">Hajathana 4</button>
+        <button class="block-btn" onclick="openBlock('hajathan5.html')">Hajathana 5</button>
+        <button class="block-btn" onclick="goToBlock('myhmanhana.html')">Myhmanhana</button>
+        <button class="block-btn" onclick="goToBlock('sagat.html')">Sagat</button>
+        <button class="block-btn" onclick="goToBlock('mal bazar.html')">Mal bazar</button>
+        <button class="block-btn" onclick="goToBlock('ulag bazar.html')">ulag bazar</button>
+        <button class="block-btn" onclick="goToBlock('ulag goýulýan')">Ulag goýulýan ýer (park)</button>
+        
+        <!-- Diğer blokları da ekleyebilirsin -->
+    </div>
+
+    <script>
+        function goToBlock(page) {
+            window.location.href = page;
+        }
+    </script>
+
+</body>
+</html>
